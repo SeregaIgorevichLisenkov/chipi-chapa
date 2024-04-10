@@ -5,10 +5,15 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    background-color: #579;
+    background-color: #337799;
+    font-family: sans-serif;
+    background: no-repeat url("bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 header {
-    background-color: #ccc;
+    background-color: #FF9900;
     height: 100px;
     width: 100%;
     display: flex;
@@ -16,27 +21,85 @@ header {
     justify-content: space-evenly;
 }
 main {
-    background-color: #fff;
+    background-color: #FFFFFF99;
     width: 70%;
     text-align: center;
     padding: 20px;
     margin: 0 auto;
 }
 footer {
-    background-color: #ccc;
+    background-color: #003377;
     height: 40px;
     width: 100%;
     text-align: center;
 }
-button {
-    padding: 10px 20px;
-    margin: 0px;
-}  
+h1{
+    background-color: #FF9900;
+    color: #FFFFFF;
+    width: 50%;
+    border-radius: 20px;
+}
+h3{
+    background-color: #00000033;
+    color: #FFFFFF;
+    display: flex;
+    align-content: flex-start;
+    padding-left: 25px;
+}
 a {
     display: inline-block;
     margin: 0px;
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+a:link {
+    color: #FF5500;
+}
+a:visited {
+    color: #FF9900;
+}
+
+a:hover {
+    border-bottom: 1px solid;
+    background: #FF9900;
+    color: #FFFFFF;
+}
+a:active {
+    background: #FF5500;
 }
 .logo {
     margin: 10px;
     height: 80px;
+}
+.button {
+    background-color: #555555;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1 {
+    background-color: #FFFFFF; 
+    color: black; 
+    border: 2px solid #FF0000;
+}
+.button1:hover {
+    background-color: #FF0000;
+    color: white;
+}
+.button2 {
+    background-color: #FFFFFF; 
+    color: black; 
+    border: 2px solid #337799;
+}
+.button2:hover {
+    background-color: #337799;
+    color: white;
 }
